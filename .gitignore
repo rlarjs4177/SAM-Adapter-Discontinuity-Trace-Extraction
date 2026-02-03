@@ -1,0 +1,76 @@
+# =========================
+# Python / Cache
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.dylib
+*.egg-info/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# =========================
+# Environments / Secrets
+# =========================
+.env
+.venv/
+venv/
+conda/
+*.yaml.lock
+*.key
+*.pem
+
+# =========================
+# Data / Outputs (DO NOT UPLOAD)
+# =========================
+data/
+dataset/
+datasets_data/
+metric/gt/
+metric/pred/
+inference_*/
+runs/
+results/
+outputs/
+logs/
+wandb/
+
+# =========================
+# Checkpoints / Weights (DO NOT UPLOAD)
+# =========================
+checkpoint/
+checkpoints/
+weights/
+save/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# =========================
+# Archives / Large files
+# =========================
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# =========================
+# Weird accidental files
+# =========================
+pdf*
